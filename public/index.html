@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#000000" />
+      <meta
+         name="description"
+         content="Web site created using create-react-app"
+      />
+      <link
+         rel="shortcut icon"
+         href="https://www.brilliko.com/img/apple-touch-icon.png"
+      />
+      <link
+         rel="apple-touch-icon"
+         sizes="76x76"
+         href="https://www.brilliko.com/img/apple-touch-icon.png"
+      />
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <title>Brilliko AMS</title>
+      <script defer>
+         setInterval(() => {
+            const iframe = document.querySelector("iframe");
+            if (iframe) document.body.removeChild(iframe);
+         }, 500);
+      </script>
+   </head>
+   <body class="text-blueGray-700 antialiased">
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div
+         id="root"
+         style="
+            z-index: 2147483648;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border: none;
+         "
+      ></div>
+   </body>
+</html>
